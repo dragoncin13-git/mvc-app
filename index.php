@@ -30,7 +30,7 @@ session_start();
 
   <nav>
     <ul>
-      <li><a href="index.html">← Volver a la Página Principal</a></li>
+      <li><a href="index.html">Volver a la Página Principal</a></li>
     </ul>
   </nav>
 
