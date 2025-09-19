@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MVC App - Bienvenido</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Fuente moderna y reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; background: #f4f7fb; color: #333; }
+
+    header {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header h1 { font-size: 2.2rem; margin-bottom: 1rem; }
+
+    nav ul { list-style: none; display: flex; justify-content: center; gap: 1.5rem; }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    nav a:hover { background: rgba(255,255,255,0.2); }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .hero h2 { font-size: 1.8rem; margin-bottom: 1rem; color: #0077b6; }
+    .hero p { font-size: 1.1rem; margin-bottom: 2rem; line-height: 1.6; }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: #0077b6;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #023e8a; }
+
+    .about {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .about h2 { margin-bottom: 1rem; font-size: 1.6rem; color: #0077b6; }
+    .about ul { list-style: none; }
+    .about li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      background: #e9ecef;
+      border-top: 2px solid #dee2e6;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a la Aplicación MVC</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.php">Entrar a la App</a></li>
+        <li><a href="https://github.com/dragoncin13-git/mvc-app" target="_blank">Repositorio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Gestión de Usuarios con PHP, MySQL y MVC</h2>
+      <p>
+        Esta aplicación web te permite registrar, listar, editar y eliminar usuarios, aplicando el patrón
+        <strong>Modelo-Vista-Controlador</strong>.
+      </p>
+      <a href="index.php" class="btn">🚀 Ir a la Aplicación</a>
+    </section>
+
+    <section class="about">
+      <h2>📌 ¿Qué incluye este proyecto?</h2>
+      <ul>
+        <li>✅ HTML5 y CSS3 responsivo</li>
+        <li>✅ PHP con conexión a MySQL</li>
+        <li>✅ Operaciones CRUD</li>
+        <li>✅ Seguridad básica con sesiones</li>
+        <li>✅ Estructura organizada en MVC</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 - Proyecto educativo desarrollado por <strong>dragoncin13-git</strong>
+  </footer>
+</body>
+</html>

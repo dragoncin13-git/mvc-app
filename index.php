@@ -3,11 +3,13 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>MVC App - Usuarios</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
   <header>
     <h1>Gestión de Usuarios</h1>
@@ -25,5 +27,13 @@ session_start();
   <footer>
     <p>&copy; 2025 - Proyecto MVC</p>
   </footer>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">← Volver a la Página Principal</a></li>
+    </ul>
+  </nav>
+
 </body>
+
 </html>
